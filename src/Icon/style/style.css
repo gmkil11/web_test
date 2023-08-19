@@ -1,0 +1,447 @@
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    font-size: 16px;
+
+}
+
+body{ background: #121212;;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{  width: 187px;
+        height: 42px;
+
+}
+
+header{
+    display: flex;
+
+    width: 100%;
+    padding: 32px 64px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box; 
+}
+
+.button{
+    background: none;
+    border: none;   
+
+
+}
+
+.search{
+    display: flex;
+
+    width: 400px;
+    height: 48px;
+    padding: 16px 32px;
+    align-items: center;
+    right: 50px;
+    border-radius: 30px;
+    background: #FFF;
+    border: none;
+    position: relative;
+    transition: all 0.5s;
+    
+}
+
+.search:focus{
+    background: #a3e9a7;
+    transition: all 0.5s;
+
+}
+
+.searchButton{
+    background: none;
+    border: none;
+    margin-left: 290px;
+    position: absolute;
+    top: 43;
+}
+
+
+.loginButton{
+    width: 130px;
+    height: 40px;
+
+    border-radius: 30px;
+    background: #A259FF;
+    border: none;
+    color: white;
+    font-family: "pretendard-Regular",serif;
+    transition: all 0.5s;
+}
+
+.loginButton:hover{
+
+    background: #7610fc;
+    transition: all 0.5s;
+}
+
+.banner{
+    display: flex;
+    width: auto;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    border: none;
+}
+
+.bannerImage{
+    width: 100%;
+    object-fit: fill;
+    border: none;
+}
+
+.contentButtons{
+    align-items: center;
+    display: flex;
+    margin: 64px 220px 0px 220px;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box; 
+
+}
+
+/* 버튼 */
+.select {
+    align-items: center;
+    display: flex;
+    margin: 64px 220px 0px 220px;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box; 
+}
+.select input[type=radio]{
+    display: none;
+}
+.select input[type=radio]+label{
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    font-family: "Pretendard-Regular";
+}
+.select input[type=radio]+label{
+    background-color: #180432;
+    color: #CFA9FF;
+    border: 1px solid #CFA9FF;
+    transition: all 0.5s ease;
+}
+
+.select input[type=radio]:hover+label{
+    transition: all 0.5s ease;
+    background: #360F67;
+}
+
+.select input[type=radio]:checked+label{
+    background-color: #A259FF;
+    color: #fff;
+    transition: all 0.5s ease;
+    border: 1px solid #A259FF;
+    
+}
+/* 버튼 */
+
+/* 버튼 수정 */
+
+.topButton {
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    background: #A259FF;
+    border: none;
+    color: white;
+    font-family: "pretendard-Regular",serif;
+    transition: all 0.5s;
+}
+
+.mdbutton {
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    background: #A259FF;
+    border: none;
+    color: white;
+    font-family: "pretendard-Regular",serif;
+    transition: all 0.5s;
+}
+
+.topButton:hover {
+    background: #7610fc;
+    transition: all 0.5s;
+
+}
+
+.mdButton:hover{
+    background: #7610fc;
+    transition: all 0.5s;
+}
+
+/* 버튼 수정 */
+
+
+.contentBox{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.cards{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    height: 248px;
+	width: 200px;
+    margin: 48px 8px 8px 8px; 
+    overflow: hidden;
+    align-items: center;
+}
+
+.cardImageBox{
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+
+.cardImage{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+.cardExpBox{
+    margin-top: 8px;
+
+
+}
+
+#cardExpBox {
+    display: flex;
+}
+
+.cardExp {
+    padding-top: 3px;
+    padding-left: 8px;
+}
+
+.rank{
+    
+    font-family: "Pretendard-Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 100% */
+}
+
+.musicName{
+    color: #FFF;
+    font-family: "Pretendard-regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.24px;
+}
+
+.artistName{
+    padding-top: 8px;
+    color: #cccccc;
+    font-family: "Pretendard-regular";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.21px;
+}
+
+.underbanner{
+    display: flex;
+    width: auto;
+    height: 638;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    border: none;
+    overflow: hidden;
+    
+}
+
+.underbannerImage{ 
+    width: 100%;
+    object-fit: fill;
+    border: none;
+    z-index: 11;
+}
+
+.underbannerContent{
+    display: flex;
+    height: 638px;
+    width: 100%;
+    margin-left: 128px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+    align-self: stretch;
+    z-index: 12;
+    position: absolute;
+}
+
+
+
+.underbannerText{
+    color: #FFF;
+    font-family: "Pretendard-regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+
+.underbannerButton{
+    width: 212px;
+    height: 40px;
+
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    padding-top: 45px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.footerText{
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: "Pretendard-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    letter-spacing: -0.225px;
+}
+/* 로그인 페이지 */
+
+.loginLogoBox{
+    display: flex;
+    width: 100%;
+    padding-top: 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+.loginInfoBox{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 300px;
+}
+
+.loginInfo{
+    display: flex;
+
+    width: 360px;
+    height: 20px;
+    padding: 16px;
+    align-items: center;
+    border-radius: 30px;
+    background: #F5F5F5;
+    border: none;
+    position: relative;
+    
+    font-family: "Pretendard-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    padding-left: 50px;
+}
+
+.emailIcon{
+    background: none;
+    border: none;
+    margin-right: 370px;
+    
+    position: absolute;
+    top: 185px;
+    z-index: 20;
+}
+
+.passwordIcon{
+    background: none;
+    border: none;
+    margin-right: 370px;
+    position: absolute;
+    top: 253px;
+    z-index: 20;
+
+}
+
+.loginPageButton{
+    display: flex;
+
+    width:430px;
+
+    height: 48px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+
+
+.createButton{
+    transition: all 1s;
+    background: none;
+    border: 1px solid #CFA9FF; 
+    color: #CFA9FF;
+}
+
+.createButton:hover{
+    transition: all 1s;
+    background: #180432;
+
+}
