@@ -405,7 +405,7 @@ header{
     margin-right: 370px;
     
     position: absolute;
-    top: 185px;
+    top: 253px;
     z-index: 20;
 }
 
@@ -414,7 +414,7 @@ header{
     border: none;
     margin-right: 370px;
     position: absolute;
-    top: 253px;
+    top: 320px;
     z-index: 20;
 
 }
@@ -444,4 +444,103 @@ header{
     transition: all 1s;
     background: #180432;
 
+}
+
+/* 회워가입 페이지 */
+
+.nameIcon{
+    background: none;
+    border: none;
+    margin-right: 370px;
+    position: absolute;
+    top: 185px;
+    z-index: 20;
+
+}
+
+.passwordCheckIcon{
+    background: none;
+    border: none;
+    margin-right: 370px;
+    position: absolute;
+    top: 387px;
+    z-index: 20;
+
+    }
+
+.agreeBox{ 
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 64px 0px 64px;
+}
+
+.agreeAll {
+    color: #FFF;
+    font-family: "Pretendard-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 200% */
+}
+/* 체크박스 */
+.agree{
+    display: none;
+
+}
+
+.agree + label{
+    cursor: pointer;
+
+}
+
+.agree + label > span{
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.agree + label:before{
+    content:"";
+    display:inline-block;
+    width:17px;
+    height:17px;
+    border:1px solid #ffffff;
+    border-radius: 4px;
+    vertical-align:middle;
+    transition: all 0.3s;
+}
+
+.agree:checked + label:before{
+    content:"";
+    background-color:#767676;
+    border-color:#ffffff;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url('../src/Icon/check.svg');
+    transition: all 0.3s;
+}
+
+
+
+
+/* 체크박스 */
+.allAgreeText{
+    color: #FFF;
+    font-family: "Pretendard-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 32px; /* 200% */
+    margin-left: -5px;
+}
+
+.agreeText{
+    color: #FFF;
+    font-family: "Pretendard-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 32px; /* 200% */
 }
