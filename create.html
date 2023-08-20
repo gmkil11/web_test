@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusiPort 회원가입</title>
+    <Link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body class="body">
+    <div class="loginLogoBox">
+        <img src="src/musiport.svg" class="loginLogo" alt="musiport">
+    </div>
+
+    <label class="loginInfoBox" >
+        <img src="src/Icon/ic_baseline-perm-identity.svg" class="nameIcon">
+        <input type="text" class="loginInfo" name="email" id="email" placeholder="이름을 입력해주세요." >
+
+        <img src="src/Icon/carbon_email.svg" class="emailIcon">
+        <input type="text" class="loginInfo" name="email" id="email" placeholder="이메일을 입력해주세요" >
+
+        <img src="src/Icon/mdi_password-outline.svg" class="passwordIcon">
+        <input type="password" class="loginInfo" name="password" id="password" placeholder="비밀번호를 입력해주세요" >
+        
+        <img src="src/Icon/mdi_password-check-outline.svg" class="passwordCheckIcon">
+        <input type="password" class="loginInfo" name="password" id="password" placeholder="비밀번호를 한 번 더 입력해주세요" >
+
+        <div class="agreeBox">
+            <input type="checkbox" class="agree allAgree" id="agreeAll"><label for="agreeAll"><span class="allAgreeText" > 모두 확인하였으며 동의합니다. </span></label>
+            <hr width="100%" style="border: solid 0.5px #FFF; padding-right: 10px;  ">
+            <input type="checkbox" class="agree" id="agree1"> <label for="agree1"><span class="agreeText">만 14세 이상 이용동의 </span></label>
+            <input type="checkbox" class="agree" id="agree2"> <label for="agree2"><span class="agreeText">뮤지포트 이용약관 동의 </span></label>
+            <input type="checkbox" class="agree" id="agree3"> <label for="agree3"><span class="agreeText">개인정보 수집 및 이용 동의 </span></label>
+            <input type="checkbox" class="agree" id="agree4"> <label for="agree4"><span class="agreeText">개인정보 제3자 제공 동의 </span></label>
+
+        </div>
+        
+        <button class="loginPageButton loginButton "> 회원가입 </button>
+
+
+
+    </label>
+
+
+    <footer class="footer" >
+        <img src="src/musiport.svg"  class="footerLogo">
+        <hr width="1300px" style="border: solid 0.5px #b0b0b0;  ">
+        <p class="footerText">©musiport , Inc. 2023. We love all music!</p>
+    </footer>
+</body>
+</html>
