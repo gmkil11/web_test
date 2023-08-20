@@ -42,7 +42,7 @@ header{
 .button{
     background: none;
     border: none;   
-
+    cursor: pointer;
 
 }
 
@@ -80,7 +80,7 @@ header{
 .loginButton{
     width: 130px;
     height: 40px;
-
+    cursor: pointer;
     border-radius: 30px;
     background: #A259FF;
     border: none;
@@ -124,7 +124,7 @@ header{
 }
 
 /* 버튼 */
-.select {
+/* .select {
     align-items: center;
     display: flex;
     margin: 64px 220px 0px 220px;
@@ -164,7 +164,7 @@ header{
     transition: all 0.5s ease;
     border: 1px solid #A259FF;
     
-}
+} */
 /* 버튼 */
 
 /* 버튼 수정 */
@@ -180,7 +180,7 @@ header{
     transition: all 0.5s;
 }
 
-.mdbutton {
+.mdButton {
     width: 130px;
     height: 40px;
     border-radius: 30px;
@@ -564,4 +564,70 @@ header{
     font-style: normal;
     font-weight: 100;
     line-height: 32px; /* 200% */
+}
+
+/* 앨범 상세보기 페이지 */
+
+.albumInfoBox {
+    display: flex;
+    width: 1440px;
+    padding: 64px 150px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.albumInfo{
+
+    display: flex;
+    margin: 0px 70px 0px;
+}
+
+.albumImage{
+    width: 291px;
+    height: 291px;
+    flex-shrink: 0;
+    margin: 24px;
+}
+
+.albumArtistInfo {
+    color: #CDCDCD;
+    text-align: center;
+    font-family: "Pretendard-regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+    text-align: start;
+    padding-top:50px ;
+
+}
+
+.albumTitleText{
+    color: #FFF;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4px; /* 125% */
+}
+
+.albumContent{
+    color: #FFF;
+    font-family: "Pretendard-Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    margin: 0px 90px 0px;
+        
+}
+
+.albumContentVideo{
+    width: 1275px;
+    height: 702px;
+    justify-items: center;
+    align-items: center;
+    margin: 0px 80px 0px;
 }
