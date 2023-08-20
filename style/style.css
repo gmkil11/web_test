@@ -409,6 +409,16 @@ header{
     z-index: 20;
 }
 
+.emailIconLogin{
+    background: none;
+    border: none;
+    margin-right: 370px;
+    
+    position: absolute;
+    top: 185px;
+    z-index: 20;
+}
+
 .passwordIcon{
     background: none;
     border: none;
@@ -418,6 +428,17 @@ header{
     z-index: 20;
 
 }
+
+.passwordIconLogin{
+    background: none;
+    border: none;
+    margin-right: 370px;
+    position: absolute;
+    top: 253px;
+    z-index: 20;
+
+}
+
 
 .loginPageButton{
     display: flex;
