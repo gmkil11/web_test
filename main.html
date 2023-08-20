@@ -1,0 +1,83 @@
+<html lang="kr" >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusiPort</title>
+    <Link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+
+    
+
+
+<body class="body">
+    <!-- 헤더 시작 -->
+    <header>
+        <button type="button" class="button" onclick="location.href='main.html'" onmouseenter="this.style.cursor='hand' ">
+            <img src="src/musiport.svg" name="logo" alt="logo">
+        </button>
+        <label >
+            <input type="text" class="search" name="search" id="serchBar" placeholder="음악 찾기" >
+            <button type="submit" class="searchButton" onclick="location.href='##'" onmouseenter="this.style.cursor='hand'"> <img src="src/Icon/Search.svg"> </button>
+        </label>
+
+        <label class="loginButton1">
+            <button  type="button" name="loginButton" class="loginButton" onclick="location.href='login.html';" onmouseenter="this.style.cursor='hand'">
+                로그인
+            </button>
+        </label>
+    </header>
+    <!-- 헤더 끝 -->
+    
+    <!-- 배너 시작 -->
+    <div class="banner" name="banner">
+        <img src="src/banner.png" class="bannerImage">
+    </div>
+    <!-- 배너 끝 -->
+    
+    <!-- 메인 콘텐츠 -->
+    <div class="content">
+        <div class="contentButtons">
+            <a href="mainTOP.html" target="contents">
+                <button type="button" name="TopButton" class="topButton" >
+                    TOP 10
+                </button>
+            </a>
+
+            <div style="width: 16px; background: none; border: none;"></div>
+
+            <a href="mainMD.html" target="contents">
+                <button type="button" name="MDButton" class="mdButton" >
+                    MD 추천
+                </button>
+            </a>
+        </div>
+        <iframe class="contentBox" frameborder="0" src="mainTOP.html" scrolling = "no" name="contents">
+
+        </iframe>
+
+    </div>
+    <div class="underbanner">
+        <img src="src/underbanner.png" name="underbanner" alt="underbanner" class="underbannerImage">
+        <div class="underbannerContent">
+            <img src="src/musiport.svg"  class="underbannerLogo ">
+            <div class="underbannerText">
+                <span>자신의 노래를</span>
+                <br>
+                <span>자유롭게 공유 하세요!</span>
+            </div>
+            <button type="button" class="underbannerButton loginButton">음악 업로드하기</button>
+        </div>
+    </div>
+    <!-- 메인 콘텐츠 끝 -->
+
+    <!-- 푸터 시작 -->
+    <footer class="footer" >
+        <img src="src/musiport.svg"  class="footerLogo">
+        <hr width="1300px" style="border: solid 0.5px #b0b0b0;  ">
+        <p class="footerText">©musiport , Inc. 2023. We love all music!</p>
+    </footer>
+    <!-- 푸터 끝 -->
+</body>
+</html>
